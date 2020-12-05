@@ -5,13 +5,16 @@
     <a>Home</a>
     </router-link>
     <router-link to="/fiction_ratings">
-    <a>Fiction</a>
+    <a>Ratings</a>
     </router-link>
-    <a>Non-fiction</a>
+    <router-link to="/new_rating">
+    <a>New-Rating</a>
+    </router-link>
   </div>
   <router-view />
 </div>
 </template>
+
 
 <style>
 
@@ -28,6 +31,19 @@
   background-color: #CC1228;
   color: white;
   text-align: center;
+}
+
+.display_box
+{
+  margin: 5px;
+  width: 400px;
+  height: 500px;
+  text-align: center;
+  color: black;
+  font-size: 24px;
+  font-family: 'Courier Prime', monospace;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #CC1228;
 }
 
 h1

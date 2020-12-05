@@ -18,7 +18,7 @@
   <p> Armadillos meaning "little armoured ones" in Spanish are New World placental mammals in the order Cingulata. The Chlamyphoridae and Dasypodidae are the only surviving families in the order, which is part of the superorder Xenarthra, along with the anteaters and sloths. Nine extinct genera and 21 extant species of armadillo have been described, some of which are distinguished by the number of bands on their armour. All species are native to the Americas, where they inhabit a variety of different environments.</p>
   </div>
   <div class="footer">
-    <p><a href="https://github.com/Temmues/Creative_Project_1/"> Git </a></p>
+    <p><a href="https://github.com/Temmues/Creative_project_3"> Git </a></p>
   </div>
 </div>
 </template>
@@ -45,18 +45,7 @@
   justify-content: space-around;
 }
 
-.display_box
-{
-  margin: 5px;
-  width: 400px;
-  height: 500px;
-  text-align: center;
-  color: black;
-  font-size: 24px;
-  font-family: 'Courier Prime', monospace;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  background-color: #CC1228;
-}
+
 
 .display_box > p
 {
@@ -64,6 +53,7 @@
   padding-bottom: 50px;
   font-family: 'Courier Prime',sans-serif;
 }
+
 img
 {
   max-width: 100%;

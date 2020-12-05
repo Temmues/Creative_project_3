@@ -4,7 +4,7 @@ import router from './router'
 import book_data from './book_data.js'
 
 let data = {
-  data: book_data
+  books: book_data
 }
 
 Vue.config.productionTip = false
