@@ -19,6 +19,9 @@
       </select>
       <button v-on:click="add({Title: new_name, Author: new_author, Rating: newR + '/10'})"> Submit </button>
     </form>
+    <div class="footer">
+      <p><a href="https://github.com/Temmues/Creative_project_3"> Git </a></p>
+    </div>
   </div>
 </template>
 
